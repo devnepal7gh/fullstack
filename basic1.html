@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Welcome to DevBroker Platform">
+  <meta name="keywords" content="Brokerage Pricing">
+  <title>Headings, Paragraphs, Typography</title>
+</head>
+<body>
+    <!-- Headings -->
+     <h1>Heading 1</h1>
+     <h2>Heading 2</h2>
+     <h3>Heading 3</h3>
+     <h4>Heading 4</h4>
+     <h5>Heading 5</h5>
+     <h6>Heading 6</h6>
+
+    <!-- Paragraph -->
+      <p>Lorem ipsum dolor sit amet <strong> adipisicing elit.</strong> Hic cumque, molestias nesciunt corporis itaque iure, blanditiis explicabo amet mollitia unde possimus perspiciatis omnis voluptatum laudantium, recusandae laborum? <EM>Temporibus dignissimos, eos maiores, laudantium</EM> quasi eius ipsam voluptate error velit perspiciatis repudiandae.<br><br><hr>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugit obcaecati temporibus voluptas quas ut aliquam aperiam hic vero eius?
+      </p>
+    <!-- External Link -->
+      <a href="http://google.com">Click for Google</a><br>
+      <a href="http://google.com" target="_blank">Click for Google</a>
+    <!-- Internal Link --><br>
+       <a href="/basic1.html">Current Page</a>
+
+    <!-- Local Image --><br>
+       <img src="/Images/img.jpg" alt="Panchpokhari" width="200">
+
+    <!-- Remote Image --><br>
+        <img src="https://source.unsplash.com/200x200/?building" alt="Image">
+    <!-- Unordered List --><br>
+     <ul>
+       <li>Item1</li>
+       <li>Item2</li>
+       <li>Item3</li>
+       <li>Item4</li>
+     </ul>
+    <!-- Ordered List --><br>
+      <ol type="I">
+        <li>Item1</li>
+        <li>Item2
+          <ul>
+            <li>Nested Item 1</li>
+            <li>Nested Item 2</li>
+          </ul>
+        </li>
+        <li>Item3</li>
+        <li>Item4</li>
+      </ol>
+    <!-- Tables -->
+     <table >
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td>Dev</td>
+        <td>Nepal</td>
+        <td>devnepal@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Evd</td>
+        <td>India</td>
+        <td>devnepal@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Vde</td>
+        <td>China</td>
+        <td>devnepal@gmail.com</td>
+      </tr>
+      </tbody>
+     </table>
+    <!-- Forms & Input -->
+     <form action="process.php">
+      <div>
+        <!-- Text  -->
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" placeholder="ENter ur name">
+      </div>
+      <div>
+        <!-- Email Input -->
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div>
+        <!-- Password Input -->
+        <label for="password">ENter password</label>
+        <input type="password" name=password id="password">
+      </div>
+      <div>
+        <!-- Textarea -->
+        <label for ="message">Message</label><br>
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+      </div>
+      <div>
+        <!-- Select -->
+        <label for="sex">Sex</label>
+        <select name="sex" id="sex">
+          <option value=" male">Male</option>
+          <option value=" Female">Female</option>
+          <option value=" Others">Others</option>
+        </select>
+      </div>
+      <div>
+        <!-- numbers -->
+        <label for="age">age</label>
+        <input type="Numbers" name="age" id="age">
+      </div>
+      <div>
+        <!-- date -->
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthdate" id="birthdate">
+      </div>
+      <div>
+        <!-- radio -->
+        <label for="Membership">Membership</label>
+        <input type="radio" name="membership" value="simple" id="membership">simple
+        <input type="radio" name="membership" value="Standard" id="membership">Standard
+        <input type="radio" name="membership" value="SUper" id="membership">SUper
+      </div>
+      <div>
+        <!-- checkbox -->
+        <label for="Membership">I like</label>
+        <input type="checkbox" name="Likes" value="bike" id="bike">simple
+        <input type="checkbox" name="Likes" value="car" id="car">Standard
+        <input type="checkbox" name="Likes" value="yacht" id="yacht">SUper
+      </div>
+      <!-- input submit -->
+      <input type="submit" value="submit">
+      <!-- button tag -->
+       <button type="reset">reset</button>
+     </form><hr>
+     <!-- Inline vs Block -->
+     <!-- Div, span, id and class -->
+      Div, Span, Id and class
+      <div id="Main-header">
+        <h1> My website</h1>
+        <P>A site about me</P>
+      </div>
+      <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Cpontact</a></li>
+      </ul>
+      <div id="about">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti quam, dolores esse perferendis sequi eius quidem qui maiores voluptatibus dicta a modi sit aliquam porro quasi dolore nesciunt eos, repudiandae aut temporibus quibusdam, alias nihil id. Ab quibusdam neque, excepturi mollitia commodi iste veritatis. Eius recusandae quas labore officiis?</p>
+      </div>
+      <div id="contact">
+        <h3>Contact Me</h3>
+        <ul>
+          <li>Address : Bhaktapur</li>
+          <li>phone: 99999</li>
+          <li>Email: xyz@@gmail.com</li>
+        </ul>
+      </div>
+      <div id="footer">
+        <P>Copyright &copy;2022</P>
+      </div>
+      <!-- Entities -->
+       <!-- Non breaking Space -->
+        <P>Hello &nbsp &nbsp&nbsp&nbsp&nbsp1 or Hi!</P>
+       <!-- Greater than and less than -->
+        <p>5 &gt; 2</p>
+        <p> 1 &lt; 3</p>
+       <!-- Copyright -->
+        <P>&copy;</P>
+        <P>&reg;</P>
+       <!-- Currency -->
+        <P>&cent;</P>
+        <P>&pound;</P>
+        <P>&euro;</P>
+        <P>&yen;</P>
+       <!-- ComputerCode -->
+        <code>
+          &lt;?php echo 'Hello'?&gt;
+        </code>
+        <P>Save the file by pressing <kbd>Ctrl+s</kbd></P>
+</body>
+</html>
